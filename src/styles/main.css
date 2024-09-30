@@ -1,0 +1,83 @@
+@import url("reset.css");
+
+/* --------------- Header --------------- */
+header{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h2{
+    color: white;
+}
+
+/* --------------- Main --------------- */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    background-image: url("../images/fundo.jpg");
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#panel-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Manda o overflow para linha de baixo */
+    width: 630px;
+}
+
+.square{
+    width: 210px;
+    height: 210px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    width: 50%;
+}
+
+#buttons button{
+    background-color: black;
+    width: 150px;
+    height: 30px;
+}
+
+#comecar{
+    color: green;
+}
+
+#parar{
+    color: red;
+}
+
+/* --------------- Footer --------------- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 4vh;
+}
